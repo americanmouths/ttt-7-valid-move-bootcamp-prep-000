@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if board[index] === gets.chomp.between?(0, 8)
+  if board[index] == index.between?(0, 8)
     return true
   else position_taken?
     return false
